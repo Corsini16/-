@@ -1,0 +1,292 @@
+/* 顶部背景 */
+.topa_div_text {
+    width: 432px;
+}
+
+.topa_div_text span {
+    display: block;
+    margin: 0px 0px 16px !important;
+}
+
+.topa_div_text>a {
+    display: block;
+    width: 90px;
+    height: 34px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 34px;
+    color: white;
+}
+
+.topa_div_img {
+    width: 500px;
+    height: 465px;
+    /* overflow:hidden; */
+    background-size: 100%;
+    background: url();
+    margin-top: 130px;
+}
+
+.topa_div_img>img {
+    display: block;
+    width: 500px;
+    height: 465px;
+
+}
+
+/* content部分 */
+.content {
+    width: 100%;
+
+    background-color: #F8FBFE;
+}
+
+.content_top1 {
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid #EEEEEE;
+    /* margin-top: 77px; */
+    padding: 77px 0 0 0;
+}
+
+.content_top1_t {
+    width: 1200px;
+    background-color: #1F9EE3;
+    margin: 0 auto;
+
+}
+
+/* 左边上部分 */
+.top1_left {
+    float: left;
+    width: 30%;
+    height: 423px;
+    /* background-color: #ffc400; */
+}
+
+.top1_left>p {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.a {
+    width: 260px;
+    height: 281px;
+    background-color: #D4ECF9;
+    margin-left: 100px;
+    margin-top: 40px;
+    background: url(../img/首页/computer.3acbdcee.png) no-repeat;
+    background-size: 260px 281px;
+    position: relative;
+}
+
+.a>img {
+    width: 176px;
+    height: 232px;
+    position: absolute;
+    left: 0px;
+    top: -20px;
+}
+
+.a:hover>img {
+    animation: top1_left_trans .3s forwards linear;
+}
+
+@keyframes top1_left_trans {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(-20px, 0px);
+    }
+}
+
+.top1_right {
+    width: 60%;
+    height: 320px;
+    /* background-color: #74848d; */
+    padding: 110px 0 0 0;
+    float: right;
+}
+
+.top1_right>p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.top1_right>span {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/* 功能介绍 */
+.Features {
+    width: 100%;
+    background: url(../img/铃声体育/features.30cee631.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.Features>p {
+    width: 1200px;
+    height: 43px;
+    margin: 0 auto;
+    font-size: 32px;
+    margin-top: 48px;
+    text-align: center;
+    position: relative;
+}
+
+/* .Features>p>span:nth-of-type(1){
+    display: block;
+    width: 1200px;
+    height: .5px;
+    position: absolute;
+    top: 319px;
+    left: 0px;
+    background-image: linear-gradient(rgba(31, 158, 227), rgba(31, 158, 227), rgba(31, 158, 227));
+}
+.Features>p>span:nth-of-type(2){
+    display: block;
+    width: 1200px;
+
+    height: .5px;
+    position: absolute;
+    top: 564px;
+    left: 0px;
+    background-image: linear-gradient(rgba(31, 158, 227), rgba(31, 158, 227), rgba(31, 158, 227));
+} */
+/* .Features>p>span:nth-of-type(3){
+    display: block;
+    width: 1200px;
+    height: .5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotateX(180deg);
+    z-index: 7;
+    background-image: linear-gradient(rgba(31, 158, 227), rgba(31, 158, 227), rgba(31, 158, 227));
+} */
+/* .Features>p>span:nth-of-type(4){
+    display: block;
+    width: 1200px;
+    height: .5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(rgba(31, 158, 227), rgba(31, 158, 227), rgba(31, 158, 227));
+} */
+
+.featuresItem {
+    margin: 0 auto;
+    width: 1200px;
+    height: 798px;
+    /* background-color: #1F9EE3; */
+    text-align: center;
+    padding: 32px 0;
+    box-sizing: border-box;
+}
+
+.featuresTtem_1 {
+    width: 400px;
+    height: 244px;
+    /* background-color: #F8FBFE; */
+    float: left;
+    padding: 32px 0;
+    box-sizing: border-box;
+}
+
+.featuresTtem_1:nth-of-type(2) {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    -o-border-image: linear-gradient(180deg, rgba(31, 158, 227, 0), rgba(31, 158, 227, .2)) 30 30;
+    border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(31, 158, 227, 0)), to(rgba(31, 158, 227, .2))) 30 30;
+    border-image: linear-gradient(180deg, rgba(31, 158, 227, 0), rgba(31, 158, 227, .2)) 30 30;
+}
+.featuresTtem_1:nth-of-type(4){
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    -o-border-image: linear-gradient(90deg,rgba(31,158,227,0),rgba(31,158,227,.2)) 30 30;
+    border-image: -webkit-gradient(linear,left top,right top,from(rgba(31,158,227,0)),to(rgba(31,158,227,.2))) 30 30;
+    border-image: linear-gradient(90deg,rgba(31,158,227,0),rgba(31,158,227,.2)) 30 30;
+}
+
+.featuresTtem_1:nth-of-type(5){
+    border: 1px solid;
+    -o-border-image: linear-gradient(rgba(31,158,227,.2),rgba(31,158,227,.2)) 30 30;
+    border-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,158,227,.2)),to(rgba(31,158,227,.2))) 30 30;
+    border-image: linear-gradient(rgba(31,158,227,.2),rgba(31,158,227,.2)) 30 30;
+}
+.featuresTtem_1:nth-of-type(6){
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    -o-border-image: linear-gradient(270deg,rgba(31,158,227,0),rgba(31,158,227,.2)) 30 30;
+    border-image: -webkit-gradient(linear,right top,left top,from(rgba(31,158,227,0)),to(rgba(31,158,227,.2))) 30 30;
+    border-image: linear-gradient(270deg,rgba(31,158,227,0),rgba(31,158,227,.2)) 30 30;
+}
+.featuresTtem_1:nth-of-type(8){
+    border-left: 1px solid;
+    border-right: 1px solid;
+    -o-border-image: linear-gradient(0deg,rgba(31,158,227,0),rgba(31,158,227,.2)) 30 30;
+    border-image: -webkit-gradient(linear,left bottom,left top,from(rgba(31,158,227,0)),to(rgba(31,158,227,.2))) 30 30;
+    border-image: linear-gradient(0deg,rgba(31,158,227,0),rgba(31,158,227,.2)) 30 30;
+}
+
+
+.featuresTtem_1>p {
+    font-size: 16px;
+    padding: 8px 0;
+}
+
+.featuresTtem_1>span {
+    display: block;
+    width: 340px;
+    height: 81px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #666666;
+}
+
+.featuresTtem_1:hover>div>img:nth-of-type(1) {
+    transform: translateY(-15px);
+    transition: all .3s linear;
+}
+
+.featuresTtem_1:hover>p {
+    color: #1F9EE3;
+}
+
+/* 铃声体育app*/
+.websiteBg2_content {
+    width: 1200px;
+    position: absolute;
+    top: 65px;
+    left: 422px;
+}
+
+.websiteBg2_content>p {
+    font-size: 32px;
+    margin: 0 0 20px;
+}
+
+.websiteBg2_content>span {
+    font-size: 16px;
+
+}
+
+.websiteBg2_content>a {
+    margin: 20px 0 0;
+    width: 80px;
+    height: 26px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 25px;
+    display: block;
+    color: #333333;
+}
+
+.websiteBg2_content>a:hover {
+    color: #1F9EE3;
+    border: 1px solid #1F9EE3;
+    background-color: rgba(31, 158, 227, .3);
+}

@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topa {
+    width: 1920px;
+    height: 592px;
+    margin: 0 auto;
+    /* background-color: #1F9EE3; */
+    background-image: url(https://tdzh360.oss-cn-chengdu.aliyuncs.com/resources/tdzh/image/aboutUsBg.png);
+    background-repeat: no-repeat;
+}
+
+/* 上面这三 相同的导航要用 */
+
+/* 导航背景图div */
+.topa_div {
+    width: 1200px;
+    height: 592px;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    animation: tootop .3s forwards linear;
+}
+
+@keyframes tootop {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-15px);
+    }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 40px!important;
+    height: 40px!important;
+    background-color: rgba(101, 103, 102, 0.3);
+    border-radius: 50%;
+    /* opacity: 0; */
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(101, 103, 102, 0.5);
+    border-radius: 50%;
+    /* opacity: 1; */
+}
+.swiper-button-hide {
+    /* /* display: none; */
+   
+    opacity: 0;
+
+
+}
+.swiper-button-prev:hover{
+    transform: translateX(10px);
+}
+.swiper-button-next:hover{
+    transform: translateX(-10px);
+}
+.swiper-wrapper:hover~.swiper-button-prev{
+    transform: translateX(10px);
+    transition: all .5s linear;
+    /* animation:fadeIn .5s linear; */
+}
+.swiper-wrapper:hover~.swiper-button-next{
+    transform: translateX(-10px);
+    transition: all .5s linear;
+
+    /* animation:fadeIn .5s linear; */
+}
+.topa_div_text {
+    width: 336px;
+    height: 129px;
+    /* line-height: 592px;  */
+    /* background-color: antiquewhite; */
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.topa_div_text>p {
+    font-size: 48px;
+    margin: 0 0 30px;
+}
+
+.topa_div_img {
+    margin-top: 50px;
+    width: 712px;
+    height: 496px;
+    float: right;
+    margin-right: -147px;
+    /* background-size: 100%; */
+    background-image: url(https://tdzh360.oss-cn-chengdu.aliyuncs.com/resources/tdzh/image/aboutUsIMG.png);
+}
+
+/* disanye         导航背景图下面 */
+.sertop1 {
+    width: 100%;
+    height: 150px;
+    /* background-color: aqua; */
+}
+
+.pageNav {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+.article {
+    width: 214px;
+    height: 150px;
+    float: left;
+    font-size: 16px;
+    padding: 36px 0px;
+    box-sizing: border-box;
+    position: relative;
+    /* background-color: burlywood; */
+    margin-right: 25px;
+    overflow: hidden;
+}
+
+.article:hover>img {
+    transform: scale(1.3);
+    transition: all .2s linear;
+}
+
+.article>img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: -5px;
+    right: -5px;
+    opacity: .1;
+}
+
+.article_m {
+    width: 34px;
+    border-top: 1px solid #1f9ee3;
+    margin: 14px 0;
+}
+
+/* 背景图下标题 */
+.title_t1 {
+    width: 100%;
+    height: 42px;
+    /* background-color: #1f9ee3; */
+    text-align: center;
+    font-size: 32px;
+    color: #000000;
+    margin: 64px 0 0 0;
+}
+
+.projectItem {
+    width: 100%;
+    /* height: 1140px; */
+    /* background-color: #aacde0; */
+    margin: 0 auto;
+}
+
+.bottomBar {
+    width: 100%;
+    height: 360px;
+    margin-top: 0px;
+}
+
+/* 悬浮上移*/
+.top3 {
+    width: 1200px;
+    height: 150px;
+    /* background-color: #ffc400; */
+    margin: 0 auto;
+}
+
+.top3_ul {
+    position: relative;
+}
+
+.bottomm_lan {
+    border-bottom: 3px solid #1F9EE3;
+    box-sizing: border-box;
+}
+
+.top3_yuan:nth-of-type(1) {
+    line-height: 210px;
+    width: 240px;
+    height: 145px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.top3_yuan:nth-of-type(2) {
+    line-height: 210px;
+    width: 240px;
+    height: 145px;
+    text-align: center;
+    position: absolute;
+    left: 240px;
+    top: 0px;
+}
+
+.top3_yuan:nth-of-type(3) {
+    line-height: 210px;
+    width: 240px;
+    height: 145px;
+    text-align: center;
+    position: absolute;
+    left: 480px;
+    top: 0px;
+}
+
+.top3_yuan:nth-of-type(4) {
+    line-height: 210px;
+    width: 240px;
+    height: 145px;
+    text-align: center;
+    position: absolute;
+    left: 720px;
+    top: 0px;
+}
+
+.top3_yuan:nth-of-type(5) {
+    line-height: 210px;
+    width: 240px;
+    height: 145px;
+    text-align: center;
+    position: absolute;
+    left: 960px;
+    top: 0px;
+}
+
+.top3_yuan {
+    position: relative;
+}
+
+.top3_yuan>a>p {
+    position: absolute;
+    left: 75px;
+    top: 25px;
+    color: #1F9EE3;
+}
+
+.top3_yuan:hover {
+    cursor: pointer;
+}
+
+.top3_yuan>a>img {
+    position: absolute;
+    left: 90px;
+    top: 45px;
+}
+
+/* 悬浮消失 */
+.top3_yuan>a>img {
+    display: block;
+}
+
+.top3_yuan>a>img:nth-of-type(2) {
+    display: none;
+}
+
+.top3_yuan:hover>a>img:nth-of-type(1) {
+    display: none;
+}
+
+.top3_yuan:hover>a>img:nth-of-type(2) {
+    display: block;
+    animation: item_top .3s forwards linear;
+}
+
+@keyframes item_top {
+    0% {
+
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+
+        transform: translate(0px, -12px);
+    }
+}
+
+/* content图片切换 */
+.m_content {
+    background-color: #F1F7FD;
+}
+
+.m_content1 {
+    width: 1200px;
+    height: 880px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    perspective: 2000px;
+    position: relative;
+}
+
+.itemCon {
+    padding: 20px 0 0 0;
+    /* opacity: 0; */
+    /* z-index: -1; */
+    background-color: #F1F7FD;
+    box-sizing: border-box;
+    /* display: none; */
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-style: preserve-3d;
+    transform: rotateX(180deg);
+    transition: all .3s linear;
+    overflow: hidden;
+    /* z-index: -1; */
+}
+
+
+.itemCon>div:nth-of-type(1) {
+    width: 320px;
+    height: 273px;
+    margin-right: 24px;
+    float: left;
+}
+
+.text {
+    width: 856px;
+    float: right;
+}
+
+.text div>span {
+    font-size: 14px;
+    line-height: 28px;
+    display: block;
+    color: #666666;
+}
+
+.active3D {
+    transform-style: preserve-3d;
+    opacity: 1;
+    /* display: block; */
+    transform: rotateX(0deg);
+    transition: all .3s linear;
+}
+
+.itemContent {
+    box-sizing: border-box;
+}
+
+/* 轮播图 */
+.swiper {
+    width: 1900px;
+    height: 592px;
+    /* --swiper-pagination-color: #fcfcfc; */
+    --swiper-theme-color: white;
+
+    /* 设置Swiper风格 */
+
+    /* 前进后退的颜色 */
+    --swiper-navigation-color: white;
+    /* 单独设置按钮颜色 */
+    --swiper-navigation-size: 20px;
+    /* 设置按钮大小 */
+}
+
+.swiper-slide {
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper-slide>img {
+    width: 1920px;
+    height: 462px;
+}
+
+.topa666 {
+    width: 1900px;
+    height: 462px;
+    margin: 0 auto;
+}
+
+.swiper-content_ {
+    color: white;
+    width: 1200px;
+    height: 340px;
+    /* background-color: #ffc400; */
+    position: absolute;
+    left: 18%;
+    top: 10%;
+}
+
+.contentLeft_ {
+    width: 471px;
+    height: 343px;
+    float: left;
+}
+
+.contentLeft_>p {
+    width: 471px;
+    height: 42px;
+    font-size: 32px;
+    margin: 0 0 32px;
+}
+
+.contentLeft_>span {
+    display: block;
+    width: 471px;
+    height: 21px;
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+
+.contentRight_ {
+    width: 729px;
+    height: 343px;
+    /* background-color: #666666; */
+    float: right;
+
+}
+
+.contentRight_>p {
+    width: 729px;
+    height: 31px;
+    font-size: 24px;
+    margin: 0 0 25px;
+    margin-top: 121px;
+}
+
+.contentRight_>span {
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.contentRight_>a {
+    display: block;
+    width: 88px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contentRight_>a:hover {
+    background-color: rgba(255, 255, 255, .5);
+}

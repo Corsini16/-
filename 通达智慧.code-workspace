@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "D:/www前端网课/duan/js高级/10_跨域/源代码/利用ajax动态渲染数据"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "通达智慧"
+	}
+}
